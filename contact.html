@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact | Rakaposhi Mountain View Hotel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="root/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header>
+        <div class="brand">
+            <h1>Rakaposhi Mountain View Hotel</h1>
+            <p class="tagline">Serene stays beneath the peaks of Hunza Valley</p>
+        </div>
+        <nav aria-label="Primary">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About &amp; Gallery</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="section" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact us</h2>
+            <p>
+                Use the form below to ask about room availability, transport options, or guided trips.
+                We aim to respond within 24 hours.
+            </p>
+
+            <div class="contact-layout">
+                <div class="contact-details">
+                    <h3>Hotel details</h3>
+                    <address>
+                        <strong>Rakaposhi Mountain View Hotel</strong><br>
+                        Karimabad, Hunza<br>
+                        Gilgit Baltistan, Pakistan
+                    </address>
+                    <p><strong>Email:</strong> <a href="mailto:info@rakaposhimountainview.pk">info@rakaposhimountainview.pk</a></p>
+                    <p><strong>Phone:</strong> +92 301 201 0000</p>
+                </div>
+
+                <form class="contact-form" aria-describedby="contact-note">
+                    <div class="form-group">
+                        <label for="name">Full name<span aria-hidden="true">*</span></label>
+                        <span id="name-required" class="visually-hidden">Required</span>
+                        <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-required">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email address<span aria-hidden="true">*</span></label>
+                        <span id="email-required" class="visually-hidden">Required</span>
+                        <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-required">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="dates">Preferred dates</label>
+                        <input id="dates" name="dates" type="text" placeholder="e.g. 10–15 July">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message<span aria-hidden="true">*</span></label>
+                        <span id="message-required" class="visually-hidden">Required</span>
+                        <textarea id="message" name="message" rows="5" required aria-describedby="message-required"></textarea>
+                    </div>
+
+                    <p id="contact-note">
+                        Fields marked with an asterisk are required.
+                    </p>
+
+                    <button class="btn primary-btn" type="submit">Send enquiry</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Rakaposhi Mountain View Hotel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
